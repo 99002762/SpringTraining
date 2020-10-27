@@ -17,7 +17,7 @@ public interface BookRepository extends MongoRepository<Book,Integer>{
 	
 	
 	//jpql
-	@Query("from Book b where b.title=?1 and b.price>?2")
+	@Query("{'title': ?0, 'price' :{ $eq: ?1}}")
 	List<Book> findBooksByTitleAndPrice(String title, Double price);
 	
 	
