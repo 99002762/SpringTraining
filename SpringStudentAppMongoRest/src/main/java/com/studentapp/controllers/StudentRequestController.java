@@ -1,4 +1,4 @@
-package com.studentapp.controller;
+package com.studentapp.controllers;
 
 import java.util.List;
 
@@ -23,7 +23,7 @@ import com.studentapp.service.StudentService;
 
 @RestController
 @RequestMapping("/student-api")
-public class StudentResponseController {
+public class StudentRequestController {
 	
 	@Autowired
 	StudentService studentService;
