@@ -77,7 +77,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler{
 	}
     
 	@ExceptionHandler(StudentNotFoundException.class)
-	protected ResponseEntity<Object>  handleBookException(StudentNotFoundException ex){
+	protected ResponseEntity<Object>  handleStudentException(StudentNotFoundException ex){
 		String message = ex.getMessage();
 		LocalDateTime timeStamp = LocalDateTime.now();
 		List<String> details = 
