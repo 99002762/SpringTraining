@@ -1,6 +1,5 @@
 package com.studentapp.model;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.TypeAlias;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -16,11 +15,16 @@ public class Student {
 	String dept;
 	int age;
 	
-	@Autowired
+	//@Autowired
 	Address address;
 	
 	
     
+	public Student() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	public Student(int stuId, String name, String dept, int age, Address address) {
 		super();
 		this.stuId = stuId;
