@@ -3,7 +3,7 @@ package com.studentapp.service;
 import java.util.List;
 
 
-import com.studentapp.exception.StudentNotFoundException;
+import com.studentapp.exceptions.StudentNotFoundException;
 import com.studentapp.model.Address;
 import com.studentapp.model.Student;
 
