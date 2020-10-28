@@ -1,8 +1,6 @@
 package com.studentapp.model;
 
-//import org.springframework.stereotype.Component;
 
-//@Component
 public class Address {
 	
 	String city;
