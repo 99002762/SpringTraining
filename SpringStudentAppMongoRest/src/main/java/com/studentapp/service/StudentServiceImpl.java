@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 
 import com.studentapp.dao.StudentRepository;
-import com.studentapp.exception.StudentNotFoundException;
+import com.studentapp.exceptions.StudentNotFoundException;
 import com.studentapp.model.Address;
 import com.studentapp.model.Student;
 
